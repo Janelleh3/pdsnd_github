@@ -1,0 +1,20 @@
+#Janelle Hakala
+#Nanodegree R Project 2
+#Explore Bikeshare Data
+#Question 1-What is the most common month of travel in Chicago?
+install.packages('ggplot2')
+library(ggplot2)
+#read in data
+chicago <- read.csv('chicago.csv')
+#add date column
+chicago$date <- as.Date(chicago$Start.Time)
+#separate out the month only to answer the question
+chicago$month <- format(as.Date(chicago$date), "%m")
+#create a bar chart of month
+ggplot(aes(x=month), data = chicago)+
+  geom_bar(fill="blue")+
+  scale_x_discrete(labels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun"))+
+  #add title and axis labels
+  xlab('Month')+
+  ylab('Count')+
+  ggtitle('Bikeshare Trips in Chicago by Month')
