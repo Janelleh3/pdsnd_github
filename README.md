@@ -10,7 +10,9 @@ Explore Bikeshare Data-R Nanodegree Project 2
 This project examines specific questions about bikeshare data from three different cities (Washington, New York City, and Chicago) and creates appropriate visualizations for the questions. 
 
 ### Files used
-Include the files used
+chicago.csv
+new-york-city.csv
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
