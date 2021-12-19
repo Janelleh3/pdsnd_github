@@ -7,7 +7,7 @@ December 18th, 2021
 Explore Bikeshare Data-R Nanodegree Project 2
 
 ### Description
-Describe what your project is about and what it does
+This project examines specific questions about bikeshare data from three different cities (Washington, New York City, and Chicago) and creates appropriate visualizations for the questions. 
 
 ### Files used
 Include the files used
