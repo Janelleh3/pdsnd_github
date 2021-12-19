@@ -15,5 +15,5 @@ new-york-city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Coding techniques and ggplot knowledge learned in Programming for Data Science with R Udacity course. 
 
